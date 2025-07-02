@@ -1,0 +1,39 @@
+body{
+    background-image: url('ev-U-8pVp66LOQ-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    background-color: #e5e7eb;
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 25%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#forma{
+    background-color: whitesmoke;
+}
+#Christ{
+    background: rgba(0, 0, 0, 0.150);
+    color: white;
+    position: absolute;
+    width: 25%;
+    top: 25%;
+    text-align: center;
+}
+#createAccount{
+    background-color: rgba(127, 255, 249, 0.750);
+}
+#pCredits{
+    position: absolute;
+    top: 95%;
+    left: 5%;
+    text-align: center;
+    align-items: center;
+}
