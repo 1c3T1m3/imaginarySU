@@ -1,3 +1,14 @@
+@font-face {
+    font-family: norse-font;
+    src: url(/home/nslur/repos/imaginarySU/Norse-Bold.otf);
+}
+
+/*
+*{
+    font-family: norse-font, sans-serif;
+}
+*/
+
 body{
     background-image: url('ev-U-8pVp66LOQ-unsplash.jpg');
     background-attachment: fixed;
@@ -6,6 +17,7 @@ body{
     padding: 0;
     margin: 0;
 }
+
 h2{
     background-color: #e5e7eb;
     position: absolute;
@@ -16,10 +28,15 @@ h2{
     padding: 0;
     margin: 0;
 }
+
 #forma{
     background-color: whitesmoke;
 }
+
 #Christ{
+    font-family: norse-font, sans-serif;
+    font-size: 40px;
+    text-align: center;
     background: rgba(0, 0, 0, 0.150);
     color: white;
     position: absolute;
@@ -27,9 +44,11 @@ h2{
     top: 25%;
     text-align: center;
 }
+
 #createAccount{
     background-color: rgba(127, 255, 249, 0.750);
 }
+
 #pCredits{
     position: absolute;
     top: 95%;
